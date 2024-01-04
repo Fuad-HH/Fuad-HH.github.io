@@ -42,47 +42,56 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
+#  - block: skills
+#    content:
+#      title: Skills
+#      text: ''
+#      # Choose a user to display skills from (a folder name within `content/authors/`)
+#      username: admin
+#    design:
+#      columns: '1'
   - block: experience
     content:
       title: Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
+      date_format: August 2022
       # Experiences.
       #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+        - title: Field Application Engineer
+          company: NATS Inc.
+          company_url: 'https://nats-usa.com/'
+          company_logo: nats
+          location: Dhaka, Bangladesh
+          date_start: '2022-08-15'
+          date_end: '2023-04-30'
           description: |2-
               Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+              * Installation, commissioning, and training of NATS products
+              * Technical support to customers
+              * Preparation of technical proposals
+
+        - title: Teaching Assistant
+          company: Rensselaer Polytechnic Institute
+          company_url: 'https://www.rpi.edu/'
+          company_logo: rpi
+          location: Troy, NY, USA
+          date_start: '2023-08-17'
+          date_end: '2023-12-20'
+          description: Taught basics of programming in Python to undergraduate students and conducted lab sessions.
+
+        - title: Research Assistant
+          company: Rensselaer Polytechnic Institute
+          company_url: 'https://www.rpi.edu/'
+          company_logo: rpi
+          location: Troy, NY, USA
+          date_start: '2023-12-21'
+          date_end: ''
     design:
       columns: '2'
   - block: accomplishments
