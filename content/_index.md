@@ -62,6 +62,24 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Assistant
+          company: Rensselaer Polytechnic Institute
+          company_url: 'https://www.rpi.edu/'
+          company_logo: rpi
+          location: Troy, NY, USA
+          date_start: '2023-12-21'
+          date_end: ''
+
+        - title: Teaching Assistant
+          company: Rensselaer Polytechnic Institute
+          company_url: 'https://www.rpi.edu/'
+          company_logo: rpi
+          location: Troy, NY, USA
+          date_start: '2023-08-17'
+          date_end: '2023-12-20'
+          description: Taught basics of programming in Python to undergraduate students and conducted lab sessions.
+
+
         - title: Field Application Engineer
           company: NATS Inc.
           company_url: 'https://nats-usa.com/'
@@ -76,22 +94,8 @@ sections:
               * Technical support to customers
               * Preparation of technical proposals
 
-        - title: Teaching Assistant
-          company: Rensselaer Polytechnic Institute
-          company_url: 'https://www.rpi.edu/'
-          company_logo: rpi
-          location: Troy, NY, USA
-          date_start: '2023-08-17'
-          date_end: '2023-12-20'
-          description: Taught basics of programming in Python to undergraduate students and conducted lab sessions.
 
-        - title: Research Assistant
-          company: Rensselaer Polytechnic Institute
-          company_url: 'https://www.rpi.edu/'
-          company_logo: rpi
-          location: Troy, NY, USA
-          date_start: '2023-12-21'
-          date_end: ''
+
     design:
       columns: '2'
   - block: accomplishments
@@ -107,32 +111,24 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
+        - certificate_url: https://drive.google.com/file/d/1L6QXh2XoxzB-K5SIclCrPZG3b0usSnfB/view?usp=drive_link  
+          date_end: '2022-05-23'
+          date_start: '2022-05-23'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          icon: ictp
+          organization: ICTP
+          organization_url: https://www.ictp.it/
+          title: Joint ICTP-IAEA Advanced School/Workshop on Computational Nuclear Science and Engineering
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+
+        - certificate_url: https://drive.google.com/file/d/1L6QXh2XoxzB-K5SIclCrPZG3b0usSnfB/view?usp=drive_link  
+          date_end: '2022-09-17'
+          date_start: '2022-09-13'
           description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          icon: ictp
+          organization: ICTP
+          organization_url: https://www.ictp.it/
+          title: Joint ICTP-IAEA Course on Theoretical Foundations and Application of Computational Fluid Dynamics in Nuclear Engineering
           url: ''
     design:
       columns: '2'
@@ -143,7 +139,7 @@ sections:
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
-      count: 5
+      count: 0
       # Filter on criteria
       filters:
         folders:
