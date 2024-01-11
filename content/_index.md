@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: 'Fuad Hasan'
 date: 2022-10-24
 type: landing
 
@@ -191,7 +191,7 @@ sections:
       title: Gallery
       subtitle: ''
       text: |-
-        {{< gallery album="demo" >}}
+        {{< gallery album="hobbyprojects" >}}
     design:
       columns: '1'
   - block: collection
