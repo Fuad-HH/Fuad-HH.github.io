@@ -91,12 +91,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/Fuad_HHasan
-    label: Follow me on Twitter
-    display:
-      header: false
+  #- icon: twitter
+  #  icon_pack: fab
+  #  link: https://twitter.com/Fuad_HHasan
+  #  label: Follow me on Twitter
+  #  display:
+  #    header: false
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com/citations?user=VPZijwUAAAAJ&hl=en&inst=5831747260623323207
