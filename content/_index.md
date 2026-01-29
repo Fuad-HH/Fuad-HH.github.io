@@ -111,6 +111,16 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - certificate_url: ''
+          date_end: '2025-08-08'
+          date_start: '2025-07-26'
+          description: ''
+          icon: 'argonne'
+          organization: Argonne National Laboratory
+          organization_url: https://extremecomputingtraining.anl.gov/
+          title: Argonne Training Program on Extreme-Scale Computing (ATPESC) - 2025
+          url: 'https://extremecomputingtraining.anl.gov/participants-2025/'
+
         - certificate_url: https://drive.google.com/file/d/1L6QXh2XoxzB-K5SIclCrPZG3b0usSnfB/view?usp=drive_link  
           date_end: '2022-05-23'
           date_start: '2022-05-23'
