@@ -11,6 +11,7 @@ authors:
 - Jacob S. Merson
 date: '2025-04-30'
 publishDate: '2026-01-29T00:00:00Z'
+featured: true
 publication_types:
 - article-journal
 publication: '*arXiv*'
