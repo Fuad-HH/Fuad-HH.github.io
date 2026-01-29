@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Graduate Student
+role: PhD Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -122,5 +122,5 @@ social:
 highlight_name: true
 ---
 
-Fuad Hasan is a graduate student in the Department of Mechanical, Aerospace, and Nuclear Engineering at Rensselaer Polytechnic Institute. He is currently working as a research assistant (RA) in the [Lab for Accelerated Computing In Engineering and Science (LACES)](https://laces-lab.github.io/).
+Hi 👋, I am Fuad Hasan, a Ph.D. student in Mechanical Engineering at Rensselaer Polytechnic Institute (RPI). I work as a Research Assistant at the [Lab for Accelerated Computing In Engineering and Science (LACES)](https://laces-lab.github.io/). My research specializes in computational methods for fusion and fission energy, where I develop performance portable libraries for neutral particle simulation in distributed unstructured meshes. My work focuses on GPU-accelerated Monte Carlo tallies, multiphysics coupling for fusion reactor modeling. Beyond research, I enjoy history, geopolitics, and cooking.
 {style="text-align: justify;"}
