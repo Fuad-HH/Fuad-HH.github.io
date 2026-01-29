@@ -7,6 +7,17 @@ type: landing
 sections:
   - block: about.biography
     id: about
+    design:
+      css_class: dark
+      background:
+        color: black            # optional solid fallback
+        image:
+          filename: animation.svg   # path is relative to assets/media/
+          filters:
+            brightness: 0.7
+          size: cover
+          position: center
+          parallax: true
     content:
       title: About Me
       # Choose a user profile to display (a folder name within `content/authors/`)
