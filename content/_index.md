@@ -213,9 +213,6 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: |-
-        If you have any questions, please feel free to get in touch with me. I prefer emails. I will try to get back to you as soon as possible.
-      # Contact (add or remove contact options as necessary)
       email: fuadhhasan.for@gmail.com
       #phone: 888 888 88 88
       #appointment_url: 'https://calendly.com'
@@ -238,17 +235,10 @@ sections:
         - icon: video
           icon_pack: fas
           name: Webex Me
-          link: 'webexteams://im?space=36046330-3643-11ee-8a00-7fff185e827c'
+          link: 'https://rensselaer.webex.com/meet/hasanm4'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
     design:
       columns: '2'
 ---
