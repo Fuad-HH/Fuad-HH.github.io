@@ -1,0 +1,30 @@
+/* Site-wide animated background */
+:root {
+  --background-image-light: url('../media/animation-light.svg');
+  --background-image-dark: url('../media/animation-dark.svg');
+}
+
+body,
+html body,
+body.light {
+  background-color: #f6f6f6 !important;
+  background-image: var(--background-image-light) !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+}
+
+/* Dark mode background */
+body.dark,
+html body.dark,
+.dark body,
+[data-mode="dark"],
+[data-mode="dark"] body {
+  background-color: #050505 !important;
+  background-image: var(--background-image-dark) !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+}

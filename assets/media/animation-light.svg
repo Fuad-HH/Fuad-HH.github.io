@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdfcfe" />
+      <stop offset="45%" stop-color="#f4f8ff" />
+      <stop offset="100%" stop-color="#e7f7ff" />
+    </linearGradient>
+    <radialGradient id="orbGradientA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8fd3ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#8fd3ff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="orbGradientB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb8d9" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ffb8d9" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7cc7ff" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#ffa7e4" stop-opacity="0.35" />
+    </linearGradient>
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" />
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bgGradient)" />
+
+  <g filter="url(#softBlur)">
+    <circle cx="420" cy="300" r="320" fill="url(#orbGradientA)">
+      <animate attributeName="cx" values="360;420;390;360" dur="24s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="260;300;310;260" dur="28s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="1230" cy="640" r="260" fill="url(#orbGradientB)">
+      <animate attributeName="cx" values="1200;1260;1220;1200" dur="26s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="600;660;630;600" dur="32s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <g stroke="url(#waveGradient)" stroke-width="1.4" fill="none" opacity="0.6">
+    <path d="M-200 500 Q 200 420 600 520 T 1600 540" stroke-dasharray="280 520">
+      <animate attributeName="stroke-dashoffset" values="0;-1600" dur="30s" repeatCount="indefinite" />
+    </path>
+    <path d="M-200 620 Q 150 700 520 650 T 1600 640" stroke-dasharray="220 460">
+      <animate attributeName="stroke-dashoffset" values="0;-1400" dur="24s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <g opacity="0.6">
+    <circle cx="260" cy="740" r="90" fill="#b9e0ff">
+      <animate attributeName="r" values="80;95;85;80" dur="20s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="980" cy="180" r="70" fill="#ffd7ef">
+      <animate attributeName="r" values="60;78;65;60" dur="18s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>

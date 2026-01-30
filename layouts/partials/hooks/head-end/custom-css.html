@@ -1,0 +1,45 @@
+<style>
+  /* Site-wide animated background */
+  :root {
+    --bg-light: url('{{ (resources.Get "media/animation-light.svg").RelPermalink }}');
+    --bg-dark: url('{{ (resources.Get "media/animation-dark.svg").RelPermalink }}');
+  }
+
+  body,
+  html body,
+  body.light {
+    background-color: #f6f6f6 !important;
+    background-image: var(--bg-light) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+  }
+
+  /* Dark mode background */
+  body.dark,
+  html body.dark,
+  .dark body,
+  [data-mode="dark"],
+  [data-mode="dark"] body {
+    background-color: #050505 !important;
+    background-image: var(--bg-dark) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+  }
+
+  /* Remove HugoBlox section backgrounds to show body background */
+  .home-section-bg,
+  .home-section,
+  section,
+  .page-wrapper,
+  #main,
+  main {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+  }
+</style>
+
