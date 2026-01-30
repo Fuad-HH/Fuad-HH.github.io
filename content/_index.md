@@ -155,8 +155,8 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: File I/O
+          tag: File I/O
         - name: Other
           tag: Demo
     design:
