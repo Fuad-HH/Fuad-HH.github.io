@@ -5,9 +5,9 @@
     --bg-dark: url('{{ (resources.Get "media/animation-dark.svg").RelPermalink }}');
   }
 
-  body,
-  html body,
-  body.light {
+  /* Light mode background - default state */
+  body:not(.dark),
+  html body:not(.dark) {
     background-color: #f6f6f6 !important;
     background-image: var(--bg-light) !important;
     background-repeat: no-repeat !important;
@@ -31,12 +31,30 @@
   }
 
   /* Remove HugoBlox section backgrounds to show body background */
-  .home-section-bg,
-  .home-section,
-  section,
-  .page-wrapper,
-  #main,
-  main {
+  body:not(.dark) .home-section-bg,
+  body:not(.dark) .home-section,
+  body:not(.dark) section,
+  body:not(.dark) .page-wrapper,
+  body:not(.dark) #main,
+  body:not(.dark) main,
+  body:not(.dark) .wg-about,
+  body:not(.dark) .wg-pages,
+  body:not(.dark) .wg-collection,
+  body:not(.dark) .wg-blank,
+  body:not(.dark) div[class*="wg-"],
+  body:not(.dark) section[class*="bg-"],
+  body.dark .home-section-bg,
+  body.dark .home-section,
+  body.dark section,
+  body.dark .page-wrapper,
+  body.dark #main,
+  body.dark main,
+  body.dark .wg-about,
+  body.dark .wg-pages,
+  body.dark .wg-collection,
+  body.dark .wg-blank,
+  body.dark div[class*="wg-"],
+  body.dark section[class*="bg-"] {
     background: transparent !important;
     background-color: transparent !important;
     background-image: none !important;
