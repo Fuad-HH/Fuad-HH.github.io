@@ -167,10 +167,33 @@ sections:
       flip_alt_rows: false
   - block: markdown
     content:
-      title: Gallery
+      title: ''
       subtitle: ''
       text: |-
-        {{< gallery album="hobbyprojects" >}}
+        <details>
+          <summary style="cursor: pointer; text-align: center; margin-bottom: 2rem;">
+            <span class="gallery-closed" style="font-size: 2.5rem; font-family: inherit;"><span style="font-size: 2.5rem; display: inline-block; width: 1em; text-align: center;">›</span> Gallery</span>
+            <span class="gallery-open" style="display: none; font-size: 2.5rem; font-family: inherit;"><span style="font-size: 2.5rem; display: inline-block; width: 1em; text-align: center;">⌄</span> Gallery</span>
+          </summary>
+          <div style="margin-top: 1rem;">
+            {{< gallery album="hobbyprojects" >}}
+          </div>
+        </details>
+        
+        <style>
+          details > summary {
+            list-style: none;
+          }
+          details > summary::-webkit-details-marker {
+            display: none;
+          }
+          details[open] > summary .gallery-closed {
+            display: none;
+          }
+          details[open] > summary .gallery-open {
+            display: inline !important;
+          }
+        </style>
     design:
       columns: '1'
   - block: collection
