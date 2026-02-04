@@ -29,8 +29,8 @@ bio: My research interest is High Performance Computing for Nuclear Fusion and F
 
 # Interests to show in About widget
 interests:
-  - Scientific Computing
-  - Nuclear Reactor Physics
+  - High Performance Computing
+  - Unstructured Distributed Mesh Methods
   - Monte Carlo Simulation
 
 # Education to show in About widget
