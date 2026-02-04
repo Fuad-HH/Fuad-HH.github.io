@@ -122,5 +122,5 @@ social:
 highlight_name: true
 ---
 
-Hi 👋, I am Fuad Hasan, a Ph.D. student in Mechanical Engineering at Rensselaer Polytechnic Institute (RPI). I work as a Research Assistant at the [Lab for Accelerated Computing In Engineering and Science (LACES)](https://laces-lab.github.io/). My research specializes in computational methods for fusion and fission energy, where I develop performance portable libraries for neutral particle simulation in distributed unstructured meshes. My work focuses on GPU-accelerated Monte Carlo tallies, multiphysics coupling for fusion reactor modeling. Beyond research, I enjoy history, geopolitics, and cooking.
-{style="text-align: justify;"}
+Hi 👋, I am Fuad Hasan, a Ph.D. student in Mechanical Engineering at Rensselaer Polytechnic Institute (RPI). As a Research Assistant at the [Lab for Accelerated Computing In Engineering and Science (LACES)](https://laces-lab.github.io/), I specialize in computational methods for fusion and fission energy. My work involves developing performance-portable libraries for neutral particle simulation on distributed unstructured meshes, with a focus on GPU-accelerated Monte Carlo tallies and multiphysics coupling for fusion reactor modeling. Beyond research, I enjoy history, politics, and cooking.
+{style="text-align: left;"}
