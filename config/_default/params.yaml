@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    description: "Fuad Hasan's Academic Portfolio"
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -84,7 +84,7 @@ features:
     commento:
       url: ''
     giscus:
-      repo: ''
+      repo: 'Fuad-HH/Fuad-HH.github.io'
       repo_id: ''
       category: ''
       category_id: ''
