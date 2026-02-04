@@ -176,7 +176,7 @@ sections:
             <span class="gallery-open" style="display: none; font-size: 2.5rem; font-family: inherit;"><span style="font-size: 2.5rem; display: inline-block; width: 1em; text-align: center;">⌄</span> Gallery</span>
           </summary>
           <div style="margin-top: 1rem;">
-            {{< gallery album="hobbyprojects" >}}
+            {{< gallery-with-captions album="hobbyprojects" >}}
           </div>
         </details>
         

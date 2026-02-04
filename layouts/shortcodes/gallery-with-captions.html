@@ -1,0 +1,28 @@
+{{- $album := .Get "album" -}}
+{{- $gallery := index .Site.Data.galleries $album -}}
+
+<div class="gallery-with-captions">
+  {{- range $gallery.images -}}
+    {{- $image := resources.Get .src -}}
+    {{- if $image -}}
+      {{- $resized := $image.Fill "400x300" -}}
+    <figure class="gallery-item">
+      <a href="{{ $image.RelPermalink }}" class="glightbox" data-gallery="gallery-{{ $album }}" data-glightbox="description: {{ .caption }}">
+        <img src="{{ $resized.RelPermalink }}" alt="{{ .caption }}" loading="lazy" />
+      </a>
+      <figcaption>{{ .caption }}</figcaption>
+    </figure>
+    {{- end -}}
+  {{- end -}}
+</div>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/css/glightbox.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/glightbox@3.2.0/dist/js/glightbox.min.js"></script>
+<script>
+  const lightbox = GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+    loop: true,
+    autoplayVideos: true
+  });
+</script>
